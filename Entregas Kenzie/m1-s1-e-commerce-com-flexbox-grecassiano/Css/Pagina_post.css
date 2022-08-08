@@ -1,0 +1,358 @@
+body{
+   background-color: whitesmoke;
+  
+}
+
+.container-full{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-medium{
+   width: 100%;
+   max-width: 1168px;
+   margin: 0 auto;
+   padding: 20px 30px;
+ }
+.container-produtos{
+   width: 100%;
+  max-width: 1168px;
+  margin: 0 auto;
+  padding: 20px 30px;
+ }
+ .logo{
+   font-family: 'Inter';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   color: #000000;
+   height: 48px;
+   padding: 0 32px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .menu {
+   width: 1200px;
+   height: 80px;
+   margin: auto;
+   align-items: center;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.1);
+ }
+
+.menu_inical {
+   display: flex;
+   align-items: center;
+}
+.menu_coluna {
+   display: flex;
+   align-items: center;
+   width: 50%;
+   justify-content: flex-start;
+  
+  }
+
+.menu_coluna.menu_botaoPromocao {
+   justify-content: flex-end;
+  }
+
+.menu_interface ul {
+   display: flex;
+   list-style: none;
+   gap: 10px; 
+}
+
+.menu_interface ul li a {
+   text-decoration: none;
+   color: #585e65;
+}
+
+.botao_promocao {
+   text-decoration: none;
+   height: 48px;
+   background-color: #4C6EF5;
+   color: #fff;
+   padding: 0 32px;
+   display: flex;
+   align-items: center;
+   border-radius: 4px;
+  }
+
+.pg-inicial{
+   width: 100%;
+   max-width: 1300px;
+   height: 800px;
+   margin: 0 auto;
+   padding: 20px 30px;
+
+}
+.pg-inicial article{
+
+}
+
+.pg-inicial header{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   color: #000000;
+   padding: 0 32px;font-family: 'Inter';
+
+}
+
+.pg-inicial .slogan_e_propaganda h2{
+   font-family: 'Inter';
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 48px;
+   color: #2d2d2d;
+   margin-bottom: 20px;
+
+}
+.pg-inicial .slogan_e_propaganda p{
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   color: #2d2d2d
+}
+
+.produtos{
+   display: flex; justify-content: space-around;
+   flex-wrap: wrap;
+}
+.produtos li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: #000000;
+}
+
+.produtos li{
+   width: 270px;
+   background-color: white;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.produtos img{
+   width: 270px;
+   height: 200px;
+
+}
+
+.produtos li h2{
+   margin-block-start: auto;
+
+}
+
+.produtos li p{
+
+}
+
+.produtos li button{
+background: #4C6EF5;
+border: 1.5px solid #4C6EF5;
+border-radius: 8px;
+width: 100%;
+font-family: 'Inter';
+font-size: 25px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.televisoes{
+   display: flex; justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.televisoes li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: #000000;
+}
+
+.televisoes li{
+   width: 270px;
+   background-color: white;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.televisoes img{
+   width: 270px;
+   height: 200px;
+
+}
+
+.televisoes li h2{
+   margin-block-start: auto;
+
+}
+
+.televisoes li p{  
+
+}
+
+.televisoes li button{
+background: #4C6EF5;
+border: 1.5px solid #4C6EF5;
+border-radius: 8px;
+width: 100%;
+font-family: 'Inter';
+font-size: 25px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.celulares{
+   display: flex; justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.celulares li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: #000000;
+}
+
+.celulares li{
+   width: 270px;
+   background-color: white;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.celulares img{
+   width: 270px;
+   height: 200px;
+
+}
+
+.celulares li h2{
+   margin-block-start: auto;
+
+}
+
+.celulares li p{
+
+}
+
+.celulares li button{
+background: #4C6EF5;
+border: 1.5px solid #4C6EF5;
+border-radius: 8px;
+width: 100%;
+font-family: 'Inter';
+font-size: 25px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.eletrodomesticos{
+   display: flex; justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.eletrodomesticos li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: #000000;
+}
+
+.eletrodomesticos li{
+   width: 270px;
+   background-color: white;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.eletrodomesticos img{
+   width: 270px;
+   height: 200px;
+
+}
+
+.eletrodomesticos li h2{
+   margin-block-start: auto;
+
+}
+
+.eletrodomesticos li p{
+
+}
+
+.eletrodomesticos li button{
+background: #4C6EF5;
+border: 1.5px solid #4C6EF5;
+border-radius: 8px;
+width: 100%;
+font-family: 'Inter';
+font-size: 25px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.informatica{
+   display: flex; justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.informatica li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: #000000;
+}
+
+.informatica li{
+   width: 270px;
+   background-color: white;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.informatica img{
+   width: 270px;
+   height: 200px;
+
+}
+
+.informatica li h2{
+   margin-block-start: auto;
+}
+
+.informatica li p{
+
+}
+
+.informatica li button{
+background: #4C6EF5;
+border: 1.5px solid #4C6EF5;
+border-radius: 8px;
+width: 100%;
+font-family: 'Inter';
+font-size: 25px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.rodape{
+   display: flex; justify-content: center;
+    align-items: center;
+   width: 1200px;
+   height: 80px;
+   margin: auto;
+   align-items: center;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.1);
+}
+.rodape .confirmarCompra{
+   box-sizing: border-box;
+   background: #FFFFFF;
+   border: 1.5px solid #FFFFFF;
+   border-radius: 8px;
+   width: 100%;
+   font-family: 'Inter';
+   font-size: 25px;
+   line-height: 28px;
+   color: black;
+}
+
