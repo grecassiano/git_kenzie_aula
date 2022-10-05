@@ -1,0 +1,145 @@
+body{
+   
+ }
+ 
+.container-full{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.container-medium{
+   width: 100%;
+   max-width: 1168px;
+   margin: 0 auto;
+   padding: 20px 30px;
+}
+
+.menu{
+   background: #ffffff;
+   border: 1px solid #c0c0c0;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.menu__logo{ 
+   display: inline-block;
+}
+
+.menu div .menu__logo .logo{
+   font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+
+ .cabecalho__menu{
+   display: inline-block;
+   vertical-align: top; 
+ }
+ 
+ .cabecalho__menu ul{
+    display: inline-block;
+    padding-top: 20px;
+ }
+ 
+ .cabecalho__menu li{
+    display: inline-block;
+    margin: 0PX 26px;
+ }
+ 
+ .cabecalho__menu a{
+ font-weight: 400;
+ font-size: 16px;
+ color: #2d2d2d;
+ text-decoration: none;
+ }
+ 
+ .pg-inicial{
+ 
+ }
+ .pg-inicial article{
+    padding-top: 130px;
+ 
+ }
+ 
+ .pg-inicial header{
+ 
+ }
+ .pg-inicial .slogan_e_propaganda h2{
+   font-family: 'JetBrains Mono', monospace;
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #2d2d2d;
+   margin-bottom: 20px;
+ 
+ }
+ .pg-inicial .slogan_e_propaganda p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2d2d2d;
+   
+ 
+ }
+ 
+ .pg-inicial article img{
+    width: 100%;
+    max-width: 100%;
+ 
+ }
+ 
+ .pg-inicial article section{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto 40px;
+ 
+ }
+ 
+ .pg-inicial article h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+ }
+
+ .pg-inicial article p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+ }
+ 
+ .pg-inicial aside{
+   height: 240px;
+   margin-top: 230px;
+ 
+ }
+ 
+ .pg-inicial aside .listaPost {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-210px);
+ }
+ 
+  .pg-inicial aside .listaPost li{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 22px;
+    background-color: white
+ 
+ }
+ .listaPost aside a{
+    text-decoration: none;
+ 
+ }
